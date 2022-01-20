@@ -1,0 +1,35 @@
+This is open source Project.
+
+ClassName used in database= com.mysql.cj.jdbc.Driver
+Driver Manager URL= (jdbc:mysql://localhost:3306/hotel", "root", "root")
+
+Change the username and pasword required as per your database if it already exists.
+
+
+Download MYSQL database and create database hotel using cmd. 
+Command = 'create database hotel;'
+
+
+command to change database= 'use hotel;'
+
+create table login using following commands
+command= 'create table login(user varchar(20),password varchar(20));'
+
+Create login details
+command= 'insert into login (user,password) values('hello','world');'
+
+create employee table using following command
+command ='create table employee( name varchar(30), age varchar(3),gender varchar(6),job varchar(25),salary varchar(10),phone varchar(15), Id varchar(15),email varchar(30));'
+
+create table driver
+command= 'create table driver(name varchar(30), age varchar(3), gender varchar(10),carcompany varchar(20), carmodel varchar(20), availability varchar(15), location varchar(30));'
+
+create table rooms
+command = 'create table rooms(roomno varchar(4), availability varchar(15), clean_status varchar(10), price varchar(6),room_type varchar(20));'
+
+create table customer
+command = ' create table customer(id varchar(15), mobileno varchar(15), name varchar(30), gender varchar(6), country varchar(15), roomno varchar(4), checkedin varchar(3), deposit varchar(5));'
+
+Login with credentials user name ='hello' , password ='world'
+
+click admin and insert values in all the text fields inside driver, room and employee;
