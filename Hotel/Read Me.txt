@@ -30,6 +30,8 @@ command = 'create table rooms(roomno varchar(4), availability varchar(15), clean
 create table customer
 command = ' create table customer(id varchar(15), mobileno varchar(15), name varchar(30), gender varchar(6), country varchar(15), roomno varchar(4), checkedin varchar(3), deposit varchar(5));'
 
+Select 'Login.java'  to get started with in file explorer in windows.
+
 Login with credentials user name ='hello' , password ='world'
 
 click admin and insert values in all the text fields inside driver, room and employee;
